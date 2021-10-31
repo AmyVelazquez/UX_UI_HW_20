@@ -1,0 +1,88 @@
+body {
+    font-family: 'Lato', 'Open Sans', sans-serif;
+  }
+  
+h1,h2,h3,h4,h5,h6 {
+    font-family:'Lato', 'Open Sans', sans-serif;
+    font-weight:400;
+    margin:10px 0;
+  }
+  
+nav {
+    font-family: 'Lato', 'Open Sans', sans-serif;
+}
+
+.navbar-brand {
+    color: #ffffff;
+    font-family: 'Kaushan Script', cursive !important; 
+}
+
+a.brand:hover {
+    color: #F15F41 !important;
+}
+
+h5 {
+    font-weight: bold !important;
+}
+
+nav .dropdown-item:active {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #F15F41 !important;
+    transition: background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.current {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #F15F41 !important;
+}
+
+footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #F15F41 !important;
+  }
+
+.jumbotron {
+    display: flex;
+    background-image: url("../images/OceanPhoto2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100%;
+    padding-top:64px!important;
+    padding-bottom:24px!important;
+    align-items: center;
+    justify-content: center;
+  }
+ 
+.text-intro {
+      font-weight: bold;
+      color: white;
+      text-shadow: 2px 2px 4px #000000;
+
+  }
+
+.lead {
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+  }
+
+.img-resize {
+    max-width: 600px;
+  }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top:32px!important;
+    padding-bottom:32px!important;
+  }
+
+ .image-contain {
+        max-width: 220px;
+        height: auto;
+      }
